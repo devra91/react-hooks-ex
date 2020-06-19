@@ -16,10 +16,10 @@ const App = () => {
       </button>
       <hr />
       {visible && <Info />}
+      <Counter />
     </div>
   );
   // return <Info />
-  // <Counter />
 };
 
 export default App;
